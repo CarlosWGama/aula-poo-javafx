@@ -87,7 +87,7 @@ public class InicioController implements Initializable {
 		try {
 			Pane root = FXMLLoader.load(getClass().getResource("../view/Visualizar.fxml"));
 			
-			Scene scene = new Scene(root, 300, 300);
+			Scene scene = new Scene(root);
 			Stage stage = new Stage();
 			stage.setScene(scene);
 			stage.show();
