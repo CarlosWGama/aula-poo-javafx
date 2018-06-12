@@ -92,7 +92,7 @@ public class InicioController implements Initializable {
 			stage.setScene(scene);
 			stage.show();
 		
-			btnCadastrar.getScene().getWindow().hide();
+			//btnCadastrar.getScene().getWindow().hide();
 		} catch (Exception e) {
 			new Alert(AlertType.ERROR, e.getMessage(), ButtonType.OK).show();
 		}
